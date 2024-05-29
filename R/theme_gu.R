@@ -28,8 +28,9 @@ theme_gu <- function() {
             color = rgb(248,246,245, maxColorValue = 256)
         ),
         legend.key = element_rect(fill = rgb(248,246,245, maxColorValue = 256)),
+        legend.position = "bottom",
         panel.spacing = unit(2, "lines"),
-        plot.margin = unit(c(.75, .75, .75, .75), "cm"),
+        plot.margin = unit(c(.5, .5, .5, .5), "cm"),
         complete = TRUE
     )
 }

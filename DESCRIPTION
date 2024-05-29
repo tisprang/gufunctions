@@ -1,6 +1,6 @@
 Package: gufunctions
 Title: Goethe University Functionality
-Version: 0.1
+Version: 0.2
 Authors@R: 
     person("Timo", "Sprang", , "sprang@soz.uni-frankfurt.de", role = c("aut", "cre"),
            comment = c(ORCID = "0009-0005-3798-7747"))
