@@ -3,7 +3,7 @@
 #' This function activates a ggplot-theme which fits the GU-CD.
 
 #' @export
-theme_gu <- function(){
+theme_gu <- function() {
     ggplot2::theme(
         panel.background = element_rect(
             fill = rgb(248,246,245, maxColorValue = 256),
