@@ -1,0 +1,14 @@
+Package: gufunctions
+Title: Goethe University Functionality
+Version: 0.0.0.9000
+Authors@R: 
+    person("Timo", "Sprang", , "sprang@soz.uni-frankfurt.de", role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0005-3798-7747"))
+Description: Themes and functions for work at GU.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports:
+	ggplot2
