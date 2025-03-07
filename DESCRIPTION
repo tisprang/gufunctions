@@ -1,6 +1,6 @@
 Package: gufunctions
 Title: Goethe University Functionality
-Version: 0.2
+Version: 0.3
 Authors@R: 
     person("Timo", "Sprang", , "sprang@soz.uni-frankfurt.de", role = c("aut", "cre"),
            comment = c(ORCID = "0009-0005-3798-7747"))
@@ -9,6 +9,7 @@ License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.2
 Imports:
-	ggplot2
+	ggplot2,
+    cowplot

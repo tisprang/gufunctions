@@ -34,3 +34,18 @@ theme_gu <- function() {
         complete = TRUE
     )
 }
+
+#' Adjust background of geom sf to GU-Theme
+#'
+#' This function makes the background of a ggplot-map fit the GU-CD.
+
+#' @export
+gu_map <- function(plot) {
+    cowplot::ggdraw(plot) +
+        theme(
+            panel.background = element_rect(
+                fill = rgb(248, 246, 245, maxColorValue = 256), 
+                colour = rgb(248, 246, 245, maxColorValue = 256)
+            )
+        )
+}
